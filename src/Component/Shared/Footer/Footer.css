@@ -1,0 +1,67 @@
+.footer-part{
+    background: #2c3033;
+    padding-top: 40px;
+}
+.footer-box-container{
+    padding: 70px 0px;
+}
+.copy-right-container{
+    padding-top: 30px;
+    padding-bottom: 15px;
+    border-top: 1px solid rgba(221, 221, 221, 0.267);
+}
+.copy-right-content{
+    margin-top: 10px;
+}
+.copy-right-content p{
+    color: #fff;
+}
+.copy-right-content span a{
+    color: #ff5200;
+    font-weight: 700;
+}
+.copy-right-social ul{
+    justify-content: flex-end;
+}
+.copy-right-social ul li a{
+    border: 2px solid #ff5200;
+    border-radius: 50%;
+    width: 37px;
+    height: 37px;
+    display: inline-block;
+    text-align: center;
+    line-height: 37px;
+    margin-right: 16px;
+    color: #ff5200;
+    transition: all linear .3s;
+}
+.copy-right-social ul li a:hover{
+    background: #ff5200;
+    color: #fff;
+}
+
+ /* Large devices (desktops, less than 1200px) */
+ @media (max-width: 1199px) { }
+ 
+ /* Medium devices (tablets, less than 992px) */
+@media (max-width: 991px) {  }
+
+ /* Small devices (landscape phones, less than 768px) */
+ @media (max-width: 768px) { 
+    .copy-right-content{
+        text-align: center;
+    }
+    .copy-right-social ul{
+        justify-content: center;
+    }
+  }
+
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 576px) { 
+    .copy-right-content{
+        text-align: center;
+    }
+    .copy-right-social ul{
+        justify-content: center;
+    }
+ }

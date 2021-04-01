@@ -1,0 +1,10 @@
+.news-subscribe button{
+    border: 0px;
+    padding: 5px 20px;
+    background: #ff5200;
+    color: #ffffff;
+    border-radius: 3px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 700;
+}

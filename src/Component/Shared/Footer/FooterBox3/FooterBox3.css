@@ -1,0 +1,12 @@
+.contact-info .phone p,
+.contact-info .address p,
+.contact-info .email p {
+    color: #fff;
+    font-size: 15px;
+    line-height: 20px;
+    margin-left: 15px;
+}
+.contact-info .icon{
+    color: #ff5200;
+    margin-top: 6px;
+}

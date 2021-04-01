@@ -1,0 +1,21 @@
+.booking-table-part{
+    background-image: url(../../../Assets/booking_tabel_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 70px 0px;
+}
+.booking-btn button{
+    border: 0px;
+    background: #ff5200;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 8px 30px;
+    border-radius: 3px;
+    margin-top: 15px;
+    transition: all linear .3s;
+}
+.booking-btn button:hover{
+    background: #e04000;
+}

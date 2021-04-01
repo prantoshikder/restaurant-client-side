@@ -1,0 +1,39 @@
+.exclusive-item-part{
+    padding: 60px 0px;
+    position: relative;
+}
+.exclusive-item-part:after {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    content: "";
+    bottom: -250px;
+    z-index: -1;
+    background: url(../../../Assets/about_overlay.png) bottom right no-repeat;
+    background-size: 15% 65%;
+    right: 0px;
+}
+
+
+ /* Large devices (desktops, less than 1200px) */
+ @media (max-width: 1199px) { }
+ 
+ /* Medium devices (tablets, less than 992px) */
+@media (max-width: 991px) {  }
+
+ /* Small devices (landscape phones, less than 768px) */
+ @media (max-width: 768px) { 
+    .exclusive-item-part:after {
+        height: 40%;
+        background-size: 22% 65%;
+    }
+  }
+
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 576px) { 
+    .exclusive-item-part:after {
+        height: 20%;
+        background-size: 22% 65%;
+        margin-bottom: 40px;
+    }
+ }

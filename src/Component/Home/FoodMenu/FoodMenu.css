@@ -1,0 +1,52 @@
+.food-menu-part{
+    padding-top: 90px;
+}
+.food-menu{}
+.food-menu ul{
+    margin-top: 20px;
+    justify-content: flex-end;
+}
+.food-menu ul li{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: #0d1c26;
+    padding: 25px 20px;
+    cursor: pointer;
+    transition: all linear .3s;
+}
+
+.food-menu ul li.active,
+.food-menu ul li:focus,
+.food-menu ul li:hover{
+    color: #ff5200;
+}
+
+
+
+ /* Large devices (desktops, less than 1200px) */
+ @media (max-width: 1199px) { }
+ 
+ /* Medium devices (tablets, less than 992px) */
+@media (max-width: 991px) {  }
+
+ /* Small devices (landscape phones, less than 768px) */
+ @media (max-width: 768px) { 
+    .food-menu ul {
+        justify-content: center !important;
+        margin-top: -15px;
+    }
+  }
+
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 576px) { 
+    .food-menu ul {
+        /* justify-content: flex-start !important; */
+        margin: auto;
+        margin-top: -15px;
+    }
+    .food-menu ul li{
+        font-size: 15px;
+        padding: 20px 5px;
+    }
+ }

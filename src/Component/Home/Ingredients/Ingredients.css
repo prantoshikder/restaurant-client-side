@@ -1,0 +1,57 @@
+.ingredients-part{
+    background-image: url(../../../Assets/ingredientsImage/ingradient-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 60px 0px;
+}
+.ingredients-content{
+    background: rgba(0, 0, 0, 0.5);
+    padding: 40px 20px;
+    text-align: center;
+}
+.ingredients-content h1{
+    color: #fff;
+    font-size: 45px;
+    font-weight: 700;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+.ingredients-content p{
+    color: #fff;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 40px;
+}
+.ingredients-images{
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+.ingredients-images ul{}
+.ingredients-images ul li{
+    margin: 0px 10px;
+}
+
+
+ /* Large devices (desktops, less than 1200px) */
+ @media (max-width: 1199px) { }
+ 
+ /* Medium devices (tablets, less than 992px) */
+@media (max-width: 991px) {  }
+
+ /* Small devices (landscape phones, less than 768px) */
+ @media (max-width: 768px) { 
+    
+  }
+
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 576px) { 
+    .ingredients-content h1{
+        font-size: 30px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .ingredients-images img{
+        
+    }
+ }

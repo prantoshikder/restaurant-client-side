@@ -1,0 +1,45 @@
+.special-food-content{
+    background: #fff;
+    padding: 15px 20px 15px 35px;
+    margin-left: 10px;
+}
+.special-food-content h2{
+    font-weight: 700;
+}
+.special-food-content h5{
+    color: #ff5200;
+    font-weight: 700;
+}
+
+
+
+ /* Large devices (desktops, less than 1200px) */
+ @media (max-width: 1199px) { }
+ 
+ /* Medium devices (tablets, less than 992px) */
+@media (max-width: 991px) {  }
+
+ /* Small devices (landscape phones, less than 768px) */
+ @media (max-width: 768px) { 
+    
+  }
+
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 576px) { 
+    .single-special-food{
+        flex-direction: column;
+    }
+    .special-food-img{
+        margin: auto;
+    }
+    .special-food-content {
+        margin-left: 0px;
+        margin-top: 5px;
+    }
+    .special-food-content h2{
+        font-size: 22px;
+    }
+    .special-food-content h5{
+        font-size: 18px;
+    }
+ }

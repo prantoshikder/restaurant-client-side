@@ -1,38 +1,101 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+  outline: 0px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.proLoading{
+  width: 100%;
+  height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  overflow-x: hidden;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+}
+a, 
+a:hover{
+  text-decoration: none;
+}
+ol, ul, li{
+  list-style: none;
+}
+img{
+  vertical-align: middle;
+  border: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+img,
+ul,
+ol,
+li {
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6, a{
+  font-family: 'Roboto', sans-serif;
+}
+.section-heading{}
+.section-heading p{
+  color: #ff5200;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.section-heading h1{
+  font-size: 42px;
+  color: #2c3033;
+  font-weight: 700;
+  padding-bottom: 35px;
+}
+.footer-title h3{
+  color: #ff5200;
+  margin-bottom: 22px;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+ /* Large devices (desktops, less than 1200px) */
+ @media (max-width: 1199px) { }
+ 
+ /* Medium devices (tablets, less than 992px) */
+@media (max-width: 991px) {  }
+
+ /* Small devices (landscape phones, less than 768px) */
+ @media (max-width: 768px) { 
+  .section-heading p{
+    font-size: 18px;
   }
-  to {
-    transform: rotate(360deg);
+  .section-heading h1{
+    font-size: 34px;
+    padding-bottom: 15px;
   }
-}
+  }
+
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 576px) { 
+  .section-heading p{
+    font-size: 15px;
+  }
+  .section-heading h1{
+    font-size: 28px;
+    padding-bottom: 10px;
+  }
+  .footer-title h3{
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+ }

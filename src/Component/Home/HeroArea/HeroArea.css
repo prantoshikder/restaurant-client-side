@@ -1,0 +1,125 @@
+.hero-area-part{
+    background-image: url(../../../Assets/banner_bg.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 38%;
+    height: 880px;
+    position: relative;
+}
+.hero-area-content{
+    padding-top: 170px;
+}
+.hero-area-content h5{
+    color: #ff5200;
+    font-size: 24px;
+    font-weight: 400;
+}
+.hero-area-content h1{
+    color: #2c3033;
+    font-size: 53px;
+    font-weight: 700;
+    padding: 25px 0px 5px 0px;
+}
+.hero-area-content p{
+    color: #555555;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 45px;
+}
+.bannerBtn{}
+.bannerBtn-inner a{
+    padding: 12px 30px;
+    background: #ff5200;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: all linear .3s;
+}
+.bannerBtn-inner a:hover{
+    text-decoration: none;
+    background: #555555;
+}
+.hero-area-part:after{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    content: "";
+    bottom: -40px;
+    z-index: -1;
+    background: url(../../../Assets/banner_overlay.png) bottom right no-repeat;
+    right: 19%;
+}
+
+ /* Large devices (desktops, less than 1200px) */
+ @media (max-width: 1199px) { }
+ 
+ /* Medium devices (tablets, less than 992px) */
+@media (max-width: 991px) {  }
+
+ /* Small devices (landscape phones, less than 768px) */
+ @media (max-width: 768px) { 
+    .navbar-light .navbar-toggler {
+        background: #fff;
+    }
+    .navbar-nav .nav-item {
+        margin-left: -10px;
+    }
+    .menu-btn button {
+        display: none;
+    }
+    .hero-area-part{
+        background-size: 50%;
+        height: 878px;
+    }
+    .hero-area-content {
+        padding-top: 100px;
+    }
+    .hero-area-content h5 {
+        font-size: 22px;
+    }
+    .hero-area-content h1 {
+        font-size: 40px;
+        padding: 15px 0px 5px 0px;
+    }
+    .bannerBtn-inner a {
+        padding: 8px 20px;
+        font-size: 18px;
+    }
+    .hero-area-part:after {
+        bottom: 40px;
+        right: 5%;
+    }
+  }
+
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 576px) { 
+    .hero-area-part{
+        background-size: 60%;
+        height: 678px;
+    }
+    .hero-area-content {
+        padding-top: 65px;
+    }
+    .hero-area-content h5 {
+        font-size: 18px;
+    }
+    .hero-area-content h1 {
+        font-size: 24px;
+        padding: 0px;
+    }
+    .hero-area-content p {
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: 22px;
+    }
+    .bannerBtn-inner a {
+        padding: 6px 15px;
+        font-size: 15px;
+    }
+    .hero-area-part:after {
+        bottom: -40px;
+        right: 5%;
+    }
+ }
