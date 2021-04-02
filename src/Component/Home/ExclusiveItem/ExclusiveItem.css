@@ -16,7 +16,11 @@
 
 
  /* Large devices (desktops, less than 1200px) */
- @media (max-width: 1199px) { }
+ @media (max-width: 1199px) { 
+    .exclusive-item-part:after {
+        height: 65%;
+    } 
+ }
  
  /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991px) {  }

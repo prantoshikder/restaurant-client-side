@@ -1,14 +1,14 @@
 import React from 'react';
-import Navbar from '../Navbar/Navbar';
+// import Navbar from '../Navbar/Navbar';
 import './HeroArea.css';
 
 const HeroArea = () => {
     return (
         <div className="hero-area-part">
-            <Navbar></Navbar>
+            {/* <Navbar></Navbar> */}
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-6 col-md-8 col-sm-12">
+                    <div className="col-xl-6 col-lg-8 col-md-8 col-sm-10">
                         <div className="hero-area-content">
                             <h5>Expensive But The Best</h5>
                             <h1>Deliciousness jumping into the mouth</h1>
